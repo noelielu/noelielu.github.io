@@ -3,15 +3,22 @@ General Styles
 * --------------------------------------- */
 body {
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Courier New', Courier, monospace
   font-size: 20px;
 }
 
+header {
+  border: 1px solid pink;
+  background-image: url(../images/banners/bannercloud.jpg);
+  background-size: cover;
+  height: 50px;
+  background-position: center center;
+}
 h1,
 h2,
 h3 {
   font-size: 36px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Helvetica, sans-serif
 }
 main,
 header h1,
@@ -31,4 +38,17 @@ nav a:hover {
 nav {
   background-color: #ccc;
   padding: 12px;
+}
+
+.inspo-img {
+  width: 853px;
+}
+
+.three-col {
+  display: flex;
+  flex: 1;
+}
+
+.three-col article {
+  flex: 1;
 }
